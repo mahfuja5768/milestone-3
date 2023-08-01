@@ -21,7 +21,6 @@
 //    console.log(i);
 // }
 
-
 // //6.
 // var topics = ['array', 'loop', 'conditions', 'if-else']
 // for(var i = 0; i < topics.length ; i++){
@@ -49,14 +48,21 @@
 //     i++;
 // }
 
-
 //9.
-var booksPrice = [170, 900, 422, 100, 200, 50, 555];
+// var booksPrice = [170, 900, 422, 100, 200, 50, 555];
 
-for(var i = 0; i < booksPrice.length; i++){
-    var priceLess200 = booksPrice[i]
-    if(priceLess200 > 200){
-        continue;
-    }
-    console.log(priceLess200)
-}
+// for(var i = 0; i < booksPrice.length; i++){
+//     var priceLess200 = booksPrice[i]
+//     if(priceLess200 > 200){
+//         continue;
+//     }
+//     console.log(priceLess200)
+// }
+
+/// Andy biye korbe, per bus 50, per car 11, badbaki jabe auto te per person khoroch 50tk. auto te jara jacche tader mot khoroch koto?
+
+var people = 213;
+var peopleForCar = people % 50;
+var peopleForAuto = peopleForCar % 11;
+var autoCost = peopleForAuto * 70;
+console.log(autoCost, 'Taka');
